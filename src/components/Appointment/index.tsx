@@ -11,7 +11,10 @@ import { categories } from '../../utils/categories';
 import { theme } from '../../../global/styles/theme';
 
 export type GuildProps = {
-    owner: true;
+    id: string;
+    name: string;
+    icon: null,
+    owner: boolean;
 }
 
 export type AppointmentProps = {
@@ -56,12 +59,11 @@ export function Appointment({ data, ...rest }: Props) {
                             </Text>
                         </View>
 
-
                         <View style={styles.playersInfo}>
                             <PlayerSvg fill={owner ? primary : on} />
 
                             <Text style={[
-                                styles.players,
+                                styles.player,
                                 { color: owner ? primary : on }
                             ]}>
                                 {owner ? 'Anfitrião' : 'Visitante'}
