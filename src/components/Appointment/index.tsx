@@ -8,7 +8,7 @@ import CalendarSvg from '../../assets/calendar.svg';
 
 import { GuildIcon } from '../GuildIcon';
 import { categories } from '../../utils/categories';
-import { theme } from '../../../global/styles/theme';
+import { theme } from '../../global/styles/theme';
 
 export type GuildProps = {
     id: string;

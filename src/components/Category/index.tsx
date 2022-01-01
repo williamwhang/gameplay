@@ -5,7 +5,7 @@ import { SvgProps } from 'react-native-svg';
 import { View, Text } from 'react-native';
 
 import { styles } from './styles';
-import { theme } from '../../../global/styles/theme';
+import { theme } from '../../global/styles/theme';
 
 type Props = RectButtonProps & {
     title: string;

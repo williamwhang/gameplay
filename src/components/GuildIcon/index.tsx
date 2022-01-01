@@ -10,7 +10,7 @@ export function GuildIcon() {
     return (
         <Image
             source={{ uri }}
-            style={{ styles.image }}
+            style={{ style.image }}
             resizeMode="cover"
         />
 
