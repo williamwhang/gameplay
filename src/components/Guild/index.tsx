@@ -1,5 +1,10 @@
 import React from 'react';
-import { TouchableOpacity, TouchableOpacityProps, View, Text } from 'react-native';
+import {
+  TouchableOpacity,
+  TouchableOpacityProps,
+  View,
+  Text
+} from 'react-native';
 import { Feather } from '@expo/vector-icons';
 
 import { styles } from './styles';
